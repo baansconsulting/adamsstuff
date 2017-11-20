@@ -1,0 +1,354 @@
+.gcontainer
+{
+margin: auto;
+/*width: 1024px;*/
+width: auto;
+background-color: #FFF;
+border: 1px solid #E8E8E8;
+padding-bottom: 0px;
+/*height:100%;*/
+ overflow: hidden;
+ overflow: auto;
+}
+
+.topTitle
+{
+width: 90%;
+font-size: 20px;
+text-align: center;
+padding-left: 5%;
+padding-right: 5%;
+margin-bottom: 1%;
+color: #676767;
+padding-top:1%;
+background-color: #F5F5F5;
+}
+.top
+{
+/*min-height: 110px;*/
+background-color: #F5F5F5;
+border: 1px solid #E3E3E3;
+color:#676767;
+}
+.filter-div1
+{
+border: 1px solid #E3E3E3;
+float:right;
+margin-right:0.5%;
+display:block
+}
+.filter-lable
+{
+color: #800000;
+font-weight:bold;
+line-height: 1.5;
+border: 1px solid #E3E3E3;
+display:block;
+font-size: 14px;
+}
+ .styled-text {
+   width:92%;
+   background: #F8F8F8;
+   border: 1px solid #DDDDDD;
+   height: 30px;
+   /*margin-left: 1%;
+   margin-right: 2%;*/
+ }
+.styled-text2 {
+   width:60%;
+   background: #F8F8F8;
+   border: 1px solid #DDDDDD;
+   height: 30px;
+   /*margin-left: 1%;
+   margin-right: 2%;*/
+ }
+ .styled-text3 {
+   width:60%;
+   background: #F8F8F8;
+   border: 1px solid #DDDDDD;
+   height: 30px;
+   /*margin-left: 1%;
+   margin-right: 2%;*/
+ }
+ .styled-select {
+   width:30%;
+   overflow: hidden;
+   background: #F8F8F8;
+   border: 1px solid #DDDDDD;
+   height: 30px;
+   border-radius:2px;
+ } 
+ .for-print
+ {
+    border: 1px solid #E3E3E3;
+    background: #F8F8F8;
+    line-height: 2;
+ }
+ 
+ /*
+@media screen and (max-width: 960px) {
+.filter-lable
+{
+width:49%;
+}
+}
+@media screen and (max-width: 768px) {
+.filter-lable
+{
+width:49%;
+line-height:1;
+}
+}
+@media screen and (max-width: 560px) {
+.filter-lable
+{
+width:49%;
+line-height:1;
+}
+}
+@media screen and (max-width:500px) {
+.filter-lable
+{
+width:340px;
+line-height:1;
+}
+}*/
+
+@media only screen and (min-width: 1070px) and (max-width: 1189px)
+{
+	.filter-lable
+	{
+		font-size: 13px;
+	}
+	.styled-text
+	{
+		font-size: 13px;
+		width: 50%;
+	}
+	.styled-text2
+	{
+		font-size: 13px;
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1069px)
+{
+	.filter-lable
+	{
+		font-size: 12px;
+	}
+	.styled-text
+	{
+		font-size: 12px;
+		width: 50%;
+	}
+	.styled-text2
+	{
+		font-size: 13px;
+		width: 50%;
+	}
+	.styled-text3
+	{
+		font-size: 13px;
+		width: 85%;
+	}
+	.btn{
+	    font-size: 12px;
+		}
+}
+@media only screen and (min-width: 1px) and (max-width: 900px)
+{
+	.filter-lable
+	{
+		font-size: 10px;
+	}
+	.styled-text
+	{
+		font-size: 15px;
+		width: 76%!important;
+	}
+	.btn
+	{
+		font-size: 10px;
+	}
+	.styled-text2
+	{
+		font-size: 13px;
+		width: 82%;
+	}
+	.styled-text3
+	{
+		font-size: 13px;
+		width: 86%;
+	}
+}
+/*	.responsive
+	{
+	width:100%;
+	}
+	.responsive tr td
+	{
+	border:1px solid #000;
+	text-align:center;
+	padding:8px;
+	}
+	.newTableStyle tr:nth-child(even)
+	{
+	background:#dddddd;
+	}
+	 .newTableStyle tr th
+	{
+	background:#800000;
+	color: white;
+	}
+}*/
+@media print {
+    .col-lg-6{
+        width: 100% !important;
+    }
+	#dpage1,#wpage1,#mpage1
+	{
+		margin-top:5px !important;
+	}
+	
+	#dpage2_chart1,#dpage2_chart2,#dpage3_chart1,#dpage3_chart2,#dpage4_chart1,
+	#wpage2_chart1,#wpage2_chart2,#wpage3_chart1,#wpage3_chart2,#wpage4_chart1,
+	#mpage2_chart1,#mpage2_chart2,#mpage3_chart1,#mpage3_chart2,#mpage4_chart1
+	{
+		margin-bottom:100px !important;
+	}
+	.panel-body{
+		height: 415px !important;
+	}
+	.text-right{
+		display:none;
+	}
+}
+
+.row{margin-right:-15px;margin-left:-15px}
+.col-lg-6{
+position:relative;
+min-height:1px;
+padding-right:15px;
+padding-left:15px
+}
+@media (min-width:1200px){
+.col-lg-6{width:50%;float:left}
+}
+.panel
+ {
+	margin-bottom:20px;
+	background-color:#fff;
+	border:1px solid transparent;
+	border-radius:4px;
+	-webkit-box-shadow:0 1px 1px rgba(0,0,0,.05);
+	box-shadow:0 1px 1px rgba(0,0,0,.05)
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+.panel-body {
+    padding: 15px;
+}
+
+.panel-red > .panel-heading {
+    border-color: #d9534f;
+    color: #fff;
+    background-color: #d9534f;
+}
+.flot-chart {
+    display: block;
+    height: 400px;
+}
+.flot-chart-content {
+    /*width: 100%;
+    height: 100%;*/
+}
+.text-right {
+    text-align: right;
+}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.col-lg-12
+ {position:relative;min-height:1px;padding-right:15px;padding-left:15px;margin-top: 10px;}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.alert-dismissable, .alert-dismissible {
+    padding-right: 35px;
+}
+.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+@media (min-width: 1200px)
+	.col-lg-12 {
+   width:100%;
+}
+.viewDet
+{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #337ab7;
+	text-decoration: none;
+    
+}
+.viewDet:hover,
+.viewDet:focus {
+    text-decoration: underline;
+    cursor: pointer;
+}

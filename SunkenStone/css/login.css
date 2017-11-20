@@ -1,0 +1,54 @@
+.gcontainer
+{
+margin: auto;
+width: auto;
+background-color: #FFF;
+border: 1px solid #E8E8E8;
+padding-bottom: 20px;
+height:96%;
+ overflow: hidden;
+ overflow: auto;
+}
+
+.top
+{
+
+/*min-height: 110px;*/
+background-color: #F5F5F5;
+width:65%;
+margin:auto;
+border: 1px solid;
+color:#676767;
+}
+
+.login
+{
+width:80%; margin:auto;
+}
+ .styled-text {
+  overflow: hidden;
+   background: #F8F8F8;
+   border: 1px solid #DDDDDD;
+   border-radius:2px;
+   margin-top:1px;
+   width: 100%;
+   height: 30px;
+border-color: initial;
+
+   
+ }
+ 
+@media only screen and (min-width: 500px) and (max-width: 1024px) 
+{
+	.gcontainer
+	{
+		margin:0  auto;
+		width: 100%;
+	}
+}
+.msg {
+background-color: antiquewhite;
+background-repeat: no-repeat;
+text-align: center;
+width: 100%;
+}

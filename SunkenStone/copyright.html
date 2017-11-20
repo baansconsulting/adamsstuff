@@ -1,0 +1,31 @@
+<html>
+<head>
+<style>
+
+	#footer {
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	height:30px;
+	width:100%;
+	background-color: #1e1e1e;
+	color:white;
+	}
+	* html #footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+</style>
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" href="css/w3.css"/>
+<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<center>
+	<footer id="footer">
+		Copyright 2017 | All Rights Reserved
+		</footer>
+	<!--<div class="copyr">Copyright 2017 | All Rights Reserved</div>-->
+<center>
+	</body>
+</html>
